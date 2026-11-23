@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "appVersion": "0.6.3.2",
-  "buildId": "sha256:b3389028f2c577ad3d7d66f8f1c8bce63f5e502f54ba3245c6ace6ab5a53f766",
+  "buildId": "sha256:944a7ba93e50794597acb9f8654e1601f8ebd77670953c9a53a21436b5a842b8",
   "mappingPath": "assets/generated/diagnostics/build-manifest.json",
   "readingResources": [
     "assets/generated/reading-exams/p1-high-01.js",
@@ -554,7 +554,7 @@
     },
     {
       "path": "js/bundles/core-foundation.bundle.js",
-      "sha256": "7588e0d8ce9be63828e3e1db6cdda4cdc2de0c365db9fa9a601ac0f763962287"
+      "sha256": "25c7de35102c5cc5cf8194d90f5339e3855ef3a832d237cb0266b95fc3cc18f2"
     },
     {
       "path": "js/bundles/diagnostics.bundle.js",
@@ -834,43 +834,43 @@
       {
         "source": "js/core/resourceCore.js",
         "startLine": 16110,
-        "endLine": 16826,
+        "endLine": 16834,
         "sourceStartLine": 1
       },
       {
         "source": "assets/generated/reading-exams/manifest.js",
-        "startLine": 16830,
-        "endLine": 24391,
+        "startLine": 16838,
+        "endLine": 24399,
         "sourceStartLine": 1
       },
       {
         "source": "js/runtime/readingExamRegistry.js",
-        "startLine": 24395,
-        "endLine": 24432,
+        "startLine": 24403,
+        "endLine": 24440,
         "sourceStartLine": 1
       },
       {
         "source": "js/runtime/readingExplanationRegistry.js",
-        "startLine": 24436,
-        "endLine": 24473,
+        "startLine": 24444,
+        "endLine": 24481,
         "sourceStartLine": 1
       },
       {
         "source": "js/app/state-service.js",
-        "startLine": 24477,
-        "endLine": 25143,
+        "startLine": 24485,
+        "endLine": 25151,
         "sourceStartLine": 1
       },
       {
         "source": "js/services/libraryDiscovery.js",
-        "startLine": 25147,
-        "endLine": 25862,
+        "startLine": 25155,
+        "endLine": 25870,
         "sourceStartLine": 1
       },
       {
         "source": "js/services/libraryManager.js",
-        "startLine": 25866,
-        "endLine": 27462,
+        "startLine": 25874,
+        "endLine": 27470,
         "sourceStartLine": 1
       }
     ],

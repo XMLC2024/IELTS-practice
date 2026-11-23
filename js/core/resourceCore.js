@@ -4,6 +4,11 @@
     const PATH_PROTOCOL_RE = /^(?:[a-z]+:)?\/\//i;
     const WINDOWS_DRIVE_RE = /^[A-Za-z]:\\/;
     const PATH_FALLBACK_ORDER = ['map', 'fallback', 'raw', 'relative-up', 'relative-design'];
+    // Static mirror: local PDF sources are not shipped, so PDF actions are
+    // disabled (the UI shows the upstream "PDF unavailable" state) instead of
+    // opening 404 windows. Set to true and place PDFs under ReadingPractice/PDF/
+    // when the actual PDF assets are bundled.
+    const PDF_ASSETS_SHIPPED = false;
     const RAW_DEFAULT_PATH_MAP = {
         reading: {
             root: '睡着过项目组/2. 所有文章(11.20)[192篇]/',
@@ -317,6 +322,9 @@
     }
 
     function isPdfAvailable(exam) {
+        if (PDF_ASSETS_SHIPPED === false) {
+            return false;
+        }
         if (!exam || typeof exam !== 'object'
             || typeof exam.pdfFilename !== 'string'
             || !exam.pdfFilename.trim()) {
